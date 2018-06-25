@@ -62,6 +62,8 @@ steps:
 
   - apt: install
     packages:
+    - raspi3-firmware
+    - linux-image-arm64
     - ssh
     - dosfstools
     # Contains /lib/firmware/brcm/brcmfmac43430-sdio.bin (required for WiFi).
